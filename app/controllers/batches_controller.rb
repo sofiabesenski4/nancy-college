@@ -1,6 +1,11 @@
 class BatchesController < ApplicationController
   before_action :set_batch, only: %i[ show edit update destroy ]
 
+  def download
+    ##TODO implement this
+    puts "download?!"
+  end
+
   # GET /batches or /batches.json
   def index
     @batches = Batch.all
@@ -65,6 +70,6 @@ class BatchesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def batch_params
-      params.fetch(:batch, {})
+      params.require(:batch).permit(:csv)
     end
 end

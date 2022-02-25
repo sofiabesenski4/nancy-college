@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  resources :batches
+  resources :batches do
+    member do
+      get :download
+    end
+  end
+
   resources :service_requests do
     member do
       get :start

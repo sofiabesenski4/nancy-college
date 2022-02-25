@@ -11,6 +11,12 @@
     </div>
   <% end %>
 
+  <div class="field">
+    <%= form.label :csv, "CSV File" %>
+    <%= form.file_field :csv %>
+
+
+  </div>
   <div class="actions">
     <%= form.submit %>
   </div>
