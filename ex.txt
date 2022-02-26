@@ -1,0 +1,18 @@
+Rails:
+1) upload batch of data with id: abc123.csv
+2) publish message
+file_handle: abc123.csv
+action: train
+options: 
+  nn: Convolutional Neural Net
+  training/validation/test split: 75/20/5
+  iterations: 10
+  evaluation metric: mean squared error
+3) wait for response
+
+
+Flask:
+1) waiting for request
+2) interpret request
+3) perform ML task
+4) return response

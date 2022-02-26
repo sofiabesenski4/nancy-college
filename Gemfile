@@ -46,6 +46,11 @@ gem "redis-namespace"
 gem "redis-rails"
 gem "sidekiq", '~> 6.4.1'
 
+# We will use Faktory to enqueue jobs in rails and 
+# process them using the flask ML server.
+gem 'faktory_worker_ruby'
+
+
 # We are using IKBR's TWS API, and this is the interface we can communicate
 # through. See source at https://github.com/ib-ruby/ib-api
 gem "ib-api"
