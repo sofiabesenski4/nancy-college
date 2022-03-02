@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :batches
   resources :service_requests do
     member do
       get :start
