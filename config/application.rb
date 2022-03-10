@@ -18,5 +18,7 @@ module NancyCollege
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.default_tick_stale_after = 100.seconds
   end
 end

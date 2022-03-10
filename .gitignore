@@ -34,3 +34,12 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+/csv
+
+/config/credentials/development.key
+
+/config/credentials/staging.key
+
+
+/venv/*
+/.direnv

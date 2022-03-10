@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is becoming less of a stock trader, and more like an OOP data science toolkit.
 
-Things you may want to cover:
+I intend to use it over the course of my honours project, making it easier to iterate on the 
+data science experimental cycles.
 
-* Ruby version
+## Rails front-end
+Provide a UI to kick off background jobs using Faktory, which are processed by Flask microservices.
 
-* System dependencies
+## Microservices
+Provide an API which wraps python libraries such as numpy, scikit-learn, pandas, keras, pytorch to implement the standard ML workflow. While this ML tooling is still being developed (and my honours project hasnt technically started yet), I will spend time looking into other people's ML projects, and try to extract meaningful functionality into reusable parts.
+Also this will give me a nice way to get exposed and actively research other people's projects.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The python microservices directory relies on pyenv and direnv

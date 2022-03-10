@@ -1,6 +1,6 @@
 version: '3'
 services:
-  db:
+  postgres-local:
     image: postgres:12.7-alpine
     environment:
       POSTGRES_PASSWORD: postgres
