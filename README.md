@@ -14,4 +14,5 @@ other people's ML projects, and try to extract meaningful functionality into reu
 Also this will give me a nice way to get exposed and actively research other people's projects.
 
 
-The python microservices directory relies on pyenv and direnv
+The python component of this project relies on the packages in `requirements.txt`, direnv for
+automatic environment switching, and pyenv for managing python versions.
